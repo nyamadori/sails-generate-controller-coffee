@@ -1,0 +1,11 @@
+###
+<%= entity %>
+
+@description :: Server-side logic for managing <%= resourcePlural %>
+@help        :: See http://links.sailsjs.org/docs/controllers
+###
+
+<% if (actionFns.length > 0) { %>module.exports =
+	<%- actionFns %>
+<% } else { %>module.exports = {}<% } %>
+

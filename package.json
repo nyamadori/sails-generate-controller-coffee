@@ -1,0 +1,35 @@
+{
+  "name": "sails-generate-controller-coffee",
+  "version": "0.0.0",
+  "description": "Generate a controller.coffee for Sails.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "controller",
+    "generator",
+    "sails",
+    "generate",
+    "plugin",
+    "coffee-script"
+  ],
+  "author": "nyamadori",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0",
+    "underscore.string": "~2.3.3",
+    "pluralize": "0.0.9"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "controller",
+    "behavior": "overrides `sails generate controller`",
+    "sailsVersion": "~0.10.0"
+  }
+}
